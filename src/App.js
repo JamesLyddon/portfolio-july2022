@@ -2,7 +2,7 @@ import { About, Contact, Navbar, Projects, Skills, Testimonials } from './compon
 
 export default function App() {
   return (
-    <main>
+    <main className="bg-red-900">
       <Navbar />
       <About />
       <Projects />
